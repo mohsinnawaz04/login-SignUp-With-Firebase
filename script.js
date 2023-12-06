@@ -6,7 +6,7 @@ import {
   signInWithEmailAndPassword,
   onAuthStateChanged,
   sendPasswordResetEmail,
-} from "../firebase/firebaseConfig.js";
+} from "./firebaseConfig.js";
 
 var loginBtn = document.getElementById("loginBtn");
 var signupBtn = document.getElementById("signupBtn");
