@@ -4,7 +4,7 @@ import {
   signInWithEmailAndPassword,
   onAuthStateChanged,
   sendPasswordResetEmail,
-} from "./firebase/firebaseConfig.js";
+} from "./firebaseConfig.js";
 
 // Forgot Password Functionality
 
