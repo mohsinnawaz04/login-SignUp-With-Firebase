@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="real-main">
+      <button id="loginBtn">Login</button>
+      <button id="signupBtn">SignUp</button>
+      <div id="main">
+        <div id="signin-div">
+          <h3>Sign in</h3>
+          <form id="login">
+            <label>Email</label>
+            <input type="email" id="lemail" placeholder="Email" />
+            <label>Password</label>
+            <input type="password" id="lpassword" placeholder="Password" />
+            <a href="./forgotPass.html">Forgot Password</a>
+            <button id="lBtn">Sign in</button>
+          </form>
+        </div>
+        <div id="signUp-Div">
+          <h3>Sign Up</h3>
+          <form id="signUp">
+            <label>Email</label>
+            <input type="email" id="semail" placeholder="Email" />
+            <label>Password</label>
+            <input type="password" id="spassword" placeholder="Password" />
+            <label>Confirm Password</label>
+            <input
+              type="password"
+              id="Cpassword"
+              placeholder="Re-Enter Password"
+            />
+            <button id="sBtn">SignUp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
